@@ -1,0 +1,23 @@
+for i in range(0,n1):
+    cid = int(input(" Enter customer ID : "))
+    ut = int(input(" Total Units used : "))
+    cd[cid] = ut
+    nm = input("Enter name of the customer : " )
+    n.append(nm)
+    ct = input("Enter customer Type  : " )
+    cust_type.append(ct)
+print(cd)
+print(n)
+print(cust_type)
+
+n1 = int(input(" Enter number of customer : "))
+i = 0
+while(i < n1):
+    cid = int(input(" Enter customer ID : "))
+    ut = int(input(" Enter total Units used : "))
+    cd[cid] = ut
+    nm = input("Enter name of the customer : " )
+    n.insert(i,nm)
+    ct = input("Enter customer Type  : " )
+    cust_type.insert(i,ct)
+    i=i+1
